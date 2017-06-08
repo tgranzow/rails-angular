@@ -1,1 +1,17 @@
 <h1>Proposal List</h1>
+
+<!-- This would be the way to hard code it which wouldn't make sense in live app -->
+<!-- <div>
+    {{proposalOne.customer}}
+</div>
+<div>
+    {{proposalTwo.customer}}
+</div>
+<div>
+    {{proposalThree.customer}}
+</div> -->
+
+
+<div *ngFor="let proposal of proposals">
+     {{proposal.id}} - {{proposal.customer}}: {{proposal.portfolio_url}}
+</div>
