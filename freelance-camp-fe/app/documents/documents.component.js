@@ -13,24 +13,24 @@ let DocumentsComponent = class DocumentsComponent {
         this.documents = [
             {
                 title: "My First Doc",
-                description: 'asdfasdfasdf asdfasdf',
+                description: 'asdfasdfasdf asdfasd',
                 file_url: 'http://google.com',
-                updated_at: '06/07/2017',
-                image_url: 'http://google.com',
+                updated_at: '06/12/2017',
+                image_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg',
             },
             {
                 title: "My Second Doc",
-                description: 'asdfasdfasdf asdfasdf',
+                description: 'asdfasdfasdf asdfasd',
                 file_url: 'http://google.com',
-                updated_at: '06/07/2017',
-                image_url: 'http://google.com',
+                updated_at: '06/12/2017',
+                image_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg',
             },
             {
                 title: "My Last Doc",
-                description: 'asdfasdfasdf asdfasdf',
+                description: 'asdfasdfasdf asdfasd',
                 file_url: 'http://google.com',
-                updated_at: '06/07/2017',
-                image_url: 'http://google.com',
+                updated_at: '06/12/2017',
+                image_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg',
             }
         ];
     }
@@ -39,7 +39,8 @@ DocumentsComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'documents',
-        templateUrl: 'documents.component.html'
+        templateUrl: 'documents.component.html',
+        styleUrls: ['documents.component.css']
     })
 ], DocumentsComponent);
 exports.DocumentsComponent = DocumentsComponent;
