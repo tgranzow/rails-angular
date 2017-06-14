@@ -11,7 +11,7 @@ export class DocumentService {
     constructor (
         private http: Http
     ){}
-    GetDocuments(): Observable<Document[]> {
+    getDocuments(): Observable<Document[]> {
         return this.http.get(this.documentsUrl)
                         .map((response: Response) => <Document[]>response.json())
                         .catch(this.handleError);

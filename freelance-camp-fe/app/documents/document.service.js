@@ -17,7 +17,7 @@ let DocumentService = class DocumentService {
         this.http = http;
         this.documentsUrl = 'http://localhost:3002/freelance_documents.json';
     }
-    GetDocuments() {
+    getDocuments() {
         return this.http.get(this.documentsUrl)
             .map((response) => response.json())
             .catch(this.handleError);
